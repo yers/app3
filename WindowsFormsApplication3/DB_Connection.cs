@@ -12,5 +12,12 @@ namespace WindowsFormsApplication3
 {
     class DB_Connection
     {
+        public static SqlConnection NewCon;
+        public static string ConStr = ConfigurationManager.ConnectionStrings["ConString"].ConnectionString;
+        public static SqlConnection  GetConnection()
+        {
+            NewCon = new SqlConnection(ConStr);
+            return NewCon;
+        }
     }
 }
