@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace WindowsFormsApplication3
 {
@@ -52,6 +54,24 @@ namespace WindowsFormsApplication3
 
 
 
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+    //        try
+    //        {
+    //            myConnection.Open();
+    //        }
+    //        catch (Exception e)
+    //        {
+    //            Console.WriteLine(e.ToString());
+    //        }
         }
     }
 }
