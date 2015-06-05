@@ -10,10 +10,11 @@ namespace WindowsFormsApplication3
 {
     class DB_Access
     {
-        SqlConnection = conn;
-            public DB_Access()
+        SqlConnection conn;
+
+        public DB_Access()
         {
-            ConnectionState = DB_Connection.GetConnection();
+            conn = DB_Connection.GetConnection();
 
         }
     }

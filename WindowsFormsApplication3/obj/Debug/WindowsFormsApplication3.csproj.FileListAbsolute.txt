@@ -16,3 +16,4 @@ C:\Project\CS\app3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.c
 C:\Project\CS\app3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
 C:\Project\CS\app3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
 C:\Project\CS\app3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Project\CS\app3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.newStudent.resources
